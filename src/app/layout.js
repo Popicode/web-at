@@ -1,7 +1,7 @@
 import "../styles/global.css";
 
 export const metadata = {
-    title: "Web AT",
+    title: "AT Climatización",
     description: "Sitio de aire acondicionado",
 };
 
