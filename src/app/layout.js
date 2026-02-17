@@ -12,7 +12,10 @@ export default function RootLayout({ children }) {
         <html lang="es">
             <body>
                 <Nabvar />
-                {children}
+                <main className="page-content">
+                    {children}
+                </main>
+
             </body>
         </html>
     );
