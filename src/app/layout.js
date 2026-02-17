@@ -1,4 +1,6 @@
 import "../styles/global.css";
+import { Nabvar } from "../components/layout/Nabvar";
+
 
 export const metadata = {
     title: "AT Climatización",
@@ -8,7 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="es">
-            <body>{children}</body>
+            <body>
+                <Nabvar />
+                {children}
+            </body>
         </html>
     );
 }
