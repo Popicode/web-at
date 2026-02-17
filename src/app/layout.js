@@ -1,5 +1,6 @@
 import "../styles/global.css";
 import { Nabvar } from "../components/layout/Nabvar";
+import { Container } from "@/components/layout/Container";
 
 
 export const metadata = {

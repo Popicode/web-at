@@ -6,6 +6,10 @@ module.exports = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                "inter-semi-bold": ["Inter:Semi_Bold", "sans-serif"],
+            },
+
             colors: {
                 brand: {
                     50: "#eff6ff",
