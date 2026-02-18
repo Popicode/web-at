@@ -1,3 +1,4 @@
+import { Children } from "react"
 import { CTAButton } from "../ui/CTAButton"
 
 
@@ -16,7 +17,9 @@ export function Hero() {
                 <p className="font-inter-semi-bold font-light  text-lg leading-7 text-slate-100 text-center max-h-80 ">
                     Instalación y mantenimiento de climatización residencial y comercial con expertos certificados.
                 </p>
-                <CTAButton />
+                <CTAButton sectionId={"contacto"}>
+                    {'COTIZAR AHORA  >'}
+                </CTAButton>
             </div>
         </section>
     )
