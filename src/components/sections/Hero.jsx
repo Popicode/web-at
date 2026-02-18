@@ -1,3 +1,6 @@
+import { CTAButton } from "../ui/CTAButton"
+
+
 export function Hero() {
     return (
         <section id="inicio" className="bg-linear-to-b from-brand-600 to-surface-soft pt-24 pb-12 px-4">
@@ -10,9 +13,10 @@ export function Hero() {
                 <h1 className="font-inter-semi-bold  font-bold text-4xl text-center text-white leading-11 max-h-80">
                     Confort perfecto para cualquier estación
                 </h1>
-                <p className="font-inter-semi-bold font-light  text-lg leading-7 text-slate-100 text-center max-h-80">
+                <p className="font-inter-semi-bold font-light  text-lg leading-7 text-slate-100 text-center max-h-80 ">
                     Instalación y mantenimiento de climatización residencial y comercial con expertos certificados.
                 </p>
+                <CTAButton />
             </div>
         </section>
     )
