@@ -1,5 +1,5 @@
 import { Children } from "react"
-import { CTAButton } from "../ui/CTAButton"
+import { CTAButton } from "../../shared/ui/CTAButton"
 
 
 export function Hero() {
