@@ -1,5 +1,6 @@
 import { Children } from "react"
 import { CTAButton } from "../../shared/ui/CTAButton"
+import { HomeHeroCard } from "./HomeHeroCard"
 
 
 export function Hero() {
@@ -21,6 +22,8 @@ export function Hero() {
                     {'COTIZAR AHORA  >'}
                 </CTAButton>
             </div>
+            <HomeHeroCard />
+
         </section>
     )
 }
