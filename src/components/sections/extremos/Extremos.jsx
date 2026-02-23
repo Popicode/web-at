@@ -1,7 +1,7 @@
-import { ArrowDown } from "@/components/icons/ArrowDown";
-import { ArrowUp } from "@/components/icons/ArrowUps";
-import { SnowflakeIcon } from "@/components/icons/SnowFlakeIcon";
-import { FlameIcon } from "@/components/icons/FlameIcon";
+import { ArrowDown } from "@/components/sections/extremos/icons/ArrowDown";
+import { ArrowUp } from "@/components/sections/extremos/icons/ArrowUps";
+import { SnowflakeIcon } from "@/components/sections/extremos/icons/SnowFlakeIcon";
+import { FlameIcon } from "@/components/sections/extremos/icons/FlameIcon";
 
 import { PulsingDot } from "@/components/effects/PulsingDot";
 import { ParticlePing } from "@/components/effects/ParticlePing";

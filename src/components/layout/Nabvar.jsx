@@ -1,5 +1,5 @@
 import { Container } from "./Container";
-import { ClimateIcon } from "../icons/ATLogoIcon";
+import { ClimateIcon } from "../shared/icons/ATLogoIcon";
 
 
 export function Nabvar() {
