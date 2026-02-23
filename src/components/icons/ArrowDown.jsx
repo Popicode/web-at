@@ -1,4 +1,4 @@
-export function ArrowDown({ className = "w-5 w-5" }) {
+export function ArrowDown({ className = "w-5 h-5" }) {
     return (
         <svg
             className={className}
