@@ -12,24 +12,24 @@ import proyecto4Img from "./img/proyecto-4.webp.jpg"
 const PROJECTS = [
     {
         image: proyecto1Img,
-        title: "Residencia Las Condes",
-        category: "Residencial",
+        title: "Cafeteria YEPPO",
+        category: "Comercial",
         description:
-            "Instalación de sistema Multi-Split inverter para vivienda de 180 m², logrando eficiencia energética clase A+.",
+            "Instalación de sistema Multi-Split inverter para cafeteria de 180 m², logrando eficiencia energética clase A+.",
     },
     {
         image: proyecto2Img,
-        title: "Oficinas Corporativas Santiago",
-        category: "Comercial",
+        title: "Departamento Santiago Centro",
+        category: "Residencial",
         description:
-            "Climatización integral de oficinas de 600 m² con sistema VRF centralizado y control por zonas.",
+            "Instalación Split muro para departamento",
     },
     {
         image: proyecto3Img,
-        title: "Local Gastronómico Vitacura",
-        category: "Comercial",
+        title: "Departamento Vitacura",
+        category: "Residencial",
         description:
-            "Diseño e instalación de sistema de extracción y aire acondicionado para restaurante de alta cocina.",
+            "Diseño e instalación de sistema de extracción y aire acondicionado para restaurante privado en departamento",
     },
     {
         image: proyecto4Img,
