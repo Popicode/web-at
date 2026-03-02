@@ -24,7 +24,7 @@ export function ExtremosSection() {
                         Tecnología del futuro
                     </span>
 
-                    <h2 className="font-bold text-4xl leading-tight text-text text-center">
+                    <h2 className="font-bold text-3xl leading-tight text-text text-center">
                         Dominamos los Extremos
                     </h2>
 

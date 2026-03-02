@@ -29,7 +29,7 @@ const PROJECTS = [
         title: "Departamento Vitacura",
         category: "Residencial",
         description:
-            "Diseño e instalación de sistema de extracción y aire acondicionado para restaurante privado en departamento",
+            "Diseño e instalación de sistema de extracción y aire acondicionado para restaurante privado en departamentos",
     },
     {
         image: proyecto4Img,
@@ -136,15 +136,15 @@ export function CarruselProyectos() {
                 />
             </div>
 
-            <div className="flex flex-col gap-12 items-center w-full max-w-7xl mx-auto relative z-10">
+            <div className="flex flex-col gap-12 items-center w-full max-w-7xl mx-auto relative z-10 ">
                 <div className="flex flex-col items-center gap-4">
                     <span className="font-bold text-xs tracking-widest uppercase text-accent-500 bg-accent-500/10 px-5 py-2 rounded-full backdrop-blur-sm border border-accent-500/20">
                         PROYECTOS
                     </span>
-                    <h2 className="font-inter-semi-bold font-bold text-4xl leading-tight text-white text-center">
+                    <h2 className="font-inter-semi-bold font-bold text-3xl leading-tight text-white text-center">
                         Nuestros Proyectos
                     </h2>
-                    <p className="text-base leading-6 text-slate-400 text-center max-w-100">
+                    <p className="text-base leading-6 text-slate-400 text-center max-w-none ">
                         Explora algunos de nuestros trabajos más recientes en instalaciones residenciales y comerciales.
                     </p>
                 </div>
