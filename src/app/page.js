@@ -3,7 +3,7 @@ import { Hero } from "@/components/sections/hero/Hero";
 import { ExtremosSection } from "../components/sections/extremos/Extremos";
 import { ServiciosSection } from "@/components/sections/servicios/Servicios";
 import { CarruselProyectos } from "@/components/sections/proyectos/Proyectos";
-
+import { SectionFormulario } from "@/components/sections/formulario/SectionFormulario";
 export default function Home() {
     return (
         <main>
@@ -12,6 +12,7 @@ export default function Home() {
             <ExtremosSection />
             <ServiciosSection />
             <CarruselProyectos />
+            <SectionFormulario />
         </main>
     );
 }
