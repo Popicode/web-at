@@ -18,6 +18,28 @@
   animation: float 3s ease-in-out infinite;
 }
 
+.project-image-focus {
+  object-position: center;
+}
+
+@media (min-width: 700px) {
+  .project-carousel-frame {
+    max-width: 760px;
+    margin-inline: auto;
+  }
+
+  .project-carousel-media {
+    height: clamp(420px, 62vh, 620px);
+    aspect-ratio: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .project-image-focus {
+    object-position: center 72%;
+  }
+}
+
 
 @media (prefers-reduced-motion: reduce) {
   .animate-float {

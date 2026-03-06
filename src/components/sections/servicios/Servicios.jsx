@@ -1,5 +1,8 @@
 import { ServiceCard } from "./ServiciosCard"
-import { IconInstalacion } from "./icons/IconInstalacion"
+import { IconFix } from "./icons/IconFix"
+import { IconGear } from "./icons/IconGear"
+import { IconInstall } from "./icons/IconInstall"
+
 
 export function ServiciosSection() {
     return (
@@ -17,9 +20,9 @@ export function ServiciosSection() {
                     </p>
                 </div>
                 <div className="flex flex-col gap-6 w-full">
-                    <ServiceCard icon={<IconInstalacion />} title={'Instalación'} description={"Montaje profesional de equipos Split, Multi-Split para hogares y oficinas con terminaciones de exelencia."} />
-                    <ServiceCard icon={<IconInstalacion />} title={'Mantención'} description={"Asegura la vida útil de tu equipo con limpieza profundas, sanitización y recargas de gas refrigerante"} />
-                    <ServiceCard icon={<IconInstalacion />} title={'Reparación'} description={"Diagnóstico preciso y reparación de fallas técnicas en todas las marcas del mercado."} />
+                    <ServiceCard icon={<IconInstall className="w-10 h-10 text-white" />} title={'Instalación'} description={"Montaje profesional de equipos Split, Multi-Split para hogares y oficinas con terminaciones de exelencia."} />
+                    <ServiceCard icon={<IconGear className="w-10 h-10 text-white" />} title={'Mantención'} description={"Asegura la vida útil de tu equipo con limpieza profundas, sanitización y recargas de gas refrigerante"} />
+                    <ServiceCard icon={<IconFix className="w-10 h-10 text-white" />} title={'Reparación'} description={"Diagnóstico preciso y reparación de fallas técnicas en todas las marcas del mercado."} />
                 </div>
             </div>
 
