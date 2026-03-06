@@ -33,9 +33,9 @@ export function ExtremosSection() {
                     </p>
                 </div>
 
-                <div className="flex flex-col gap-7 w-full">
+                <div className="flex flex-col  items-center gap-7 w-full">
                     <div
-                        className="group relative bg-gradient-to-br from-brand-50 via-white to-brand-100 border-2 border-brand-600/20 rounded-3xl p-10 flex flex-col gap-7 items-center overflow-hidden shadow-lg hover:shadow-2xl focus-within:shadow-2xl transition-all duration-500 hover:-translate-y-2 focus-within:-translate-y-2"
+                        className="group relative w-[85%] bg-gradient-to-br from-brand-50 via-white to-brand-100 border-2 border-brand-600/20 rounded-3xl p-10 flex flex-col gap-7 items-center overflow-hidden shadow-lg hover:shadow-2xl focus-within:shadow-2xl transition-all duration-500 hover:-translate-y-2 focus-within:-translate-y-2"
                         tabIndex={0}
                     >
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full group-focus-within:translate-x-full transition-transform duration-1000 motion-reduce:hidden" />
@@ -85,7 +85,7 @@ export function ExtremosSection() {
                     </div>
 
                     <div
-                        className="group relative bg-gradient-to-br from-accent-50 via-white to-accent-100 border-2 border-accent-500/20 rounded-3xl p-10 flex flex-col gap-7 items-center overflow-hidden shadow-lg hover:shadow-2xl focus-within:shadow-2xl transition-all duration-500 hover:-translate-y-2 focus-within:-translate-y-2"
+                        className="group relative bg-gradient-to-br w-[85%] from-accent-50 via-white to-accent-100 border-2 border-accent-500/20 rounded-3xl p-10 flex flex-col gap-7 items-center overflow-hidden shadow-lg hover:shadow-2xl focus-within:shadow-2xl transition-all duration-500 hover:-translate-y-2 focus-within:-translate-y-2"
                         tabIndex={0}
                     >
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full group-focus-within:translate-x-full transition-transform duration-1000 motion-reduce:hidden" />
