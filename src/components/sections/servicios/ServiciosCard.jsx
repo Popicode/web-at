@@ -1,6 +1,6 @@
 export function ServiceCard({ icon, title, description }) {
     return (
-        <article className="group bg-gradient-to-br from-white to-surface-soft border border-gray-200 rounded-2xl shadow-sm active:shadow-xl hover:shadow-xl active:shadow-brand-500/15 hover:shadow-brand-500/15 active:-translate-y-1 hover:-translate-y-1 
+        <article className="px-4 group bg-gradient-to-br from-white to-surface-soft border border-gray-200 rounded-2xl shadow-sm active:shadow-xl hover:shadow-xl active:shadow-brand-500/15 hover:shadow-brand-500/15 active:-translate-y-1 hover:-translate-y-1 
                  transition-all duration-100 ease-out 
                  cursor-pointer overflow-hidden relative">
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-500 to-brand-400 origin-left scale-x-0  group-active:scale-x-100 group-hover:scale-x-100 transition-transform duration-700" />

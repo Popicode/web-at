@@ -12,7 +12,7 @@ export function SectionFormulario() {
                 </div>
                 {/* card form */}
                 <div className="bg-white rounded-3xl shadow-[0px_20px_60px_rgba(0,0,0,0.08)] border border-slate-200 p-10 relative overflow-hidden">
-                    <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[#1173d4] to-transparent" />
+                    <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-brand-600 to-transparent" />
 
                 </div>
             </div>
